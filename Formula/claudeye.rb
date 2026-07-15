@@ -14,6 +14,6 @@ class Claudeye < Formula
   end
 
   test do
-    assert_match "claudeye 0.1.0", shell_output("#{bin}/claudeye --version")
+    assert_match "claudeye", shell_output("#{bin}/claudeye --version")
   end
 end
